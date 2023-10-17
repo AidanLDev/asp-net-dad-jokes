@@ -9,45 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = dad_jokes
 build_property.RootNamespace = dad_jokes
-build_property.ProjectDir = C:\Users\Aidan\Repos\dad-jokes\dad-jokes\
+build_property.ProjectDir = C:\Users\aidan.lowson\Repos\asp-net-dad-jokes\dad-jokes\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Aidan\Repos\dad-jokes\dad-jokes
+build_property.MSBuildProjectDirectory = C:\Users\aidan.lowson\Repos\asp-net-dad-jokes\dad-jokes
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Aidan/Repos/dad-jokes/dad-jokes/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/aidan.lowson/Repos/asp-net-dad-jokes/dad-jokes/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aidan/Repos/dad-jokes/dad-jokes/Views/Home/Index.cshtml]
+[C:/Users/aidan.lowson/Repos/asp-net-dad-jokes/dad-jokes/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aidan/Repos/dad-jokes/dad-jokes/Views/Home/Privacy.cshtml]
+[C:/Users/aidan.lowson/Repos/asp-net-dad-jokes/dad-jokes/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aidan/Repos/dad-jokes/dad-jokes/Views/Shared/Error.cshtml]
+[C:/Users/aidan.lowson/Repos/asp-net-dad-jokes/dad-jokes/Views/Jokes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9rZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aidan.lowson/Repos/asp-net-dad-jokes/dad-jokes/Views/Jokes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9rZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aidan.lowson/Repos/asp-net-dad-jokes/dad-jokes/Views/Jokes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9rZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aidan.lowson/Repos/asp-net-dad-jokes/dad-jokes/Views/Jokes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9rZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aidan.lowson/Repos/asp-net-dad-jokes/dad-jokes/Views/Jokes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9rZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aidan.lowson/Repos/asp-net-dad-jokes/dad-jokes/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aidan/Repos/dad-jokes/dad-jokes/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/aidan.lowson/Repos/asp-net-dad-jokes/dad-jokes/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aidan/Repos/dad-jokes/dad-jokes/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/aidan.lowson/Repos/asp-net-dad-jokes/dad-jokes/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aidan/Repos/dad-jokes/dad-jokes/Views/_ViewImports.cshtml]
+[C:/Users/aidan.lowson/Repos/asp-net-dad-jokes/dad-jokes/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aidan/Repos/dad-jokes/dad-jokes/Views/_ViewStart.cshtml]
+[C:/Users/aidan.lowson/Repos/asp-net-dad-jokes/dad-jokes/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aidan/Repos/dad-jokes/dad-jokes/Views/Shared/_Layout.cshtml]
+[C:/Users/aidan.lowson/Repos/asp-net-dad-jokes/dad-jokes/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0f3wsfl5ok
