@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aidan.lowson\\Repos\\asp-net-dad-jokes\\dad-jokes\\dad-jokes.csproj": {}
+    "C:\\Users\\Aidan\\Repos\\dad-jokes\\dad-jokes\\dad-jokes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aidan.lowson\\Repos\\asp-net-dad-jokes\\dad-jokes\\dad-jokes.csproj": {
+    "C:\\Users\\Aidan\\Repos\\dad-jokes\\dad-jokes\\dad-jokes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aidan.lowson\\Repos\\asp-net-dad-jokes\\dad-jokes\\dad-jokes.csproj",
+        "projectUniqueName": "C:\\Users\\Aidan\\Repos\\dad-jokes\\dad-jokes\\dad-jokes.csproj",
         "projectName": "dad-jokes",
-        "projectPath": "C:\\Users\\aidan.lowson\\Repos\\asp-net-dad-jokes\\dad-jokes\\dad-jokes.csproj",
-        "packagesPath": "C:\\Users\\aidan.lowson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aidan.lowson\\Repos\\asp-net-dad-jokes\\dad-jokes\\obj\\",
+        "projectPath": "C:\\Users\\Aidan\\Repos\\dad-jokes\\dad-jokes\\dad-jokes.csproj",
+        "packagesPath": "C:\\Users\\Aidan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aidan\\Repos\\dad-jokes\\dad-jokes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aidan.lowson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aidan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,7 +27,9 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Users\\Aidan\\AppData\\Roaming\\NuGet": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
         },
         "frameworks": {
           "net7.0": {
