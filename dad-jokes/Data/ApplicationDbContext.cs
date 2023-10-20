@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using dad_jokes.Models;
+//  using Npgsql.EntityFrameworkCore.PostgreSQL;
+
+// TODO: This file may need updating to work with PostgreSQL
 
 namespace dad_jokes.Data
 {

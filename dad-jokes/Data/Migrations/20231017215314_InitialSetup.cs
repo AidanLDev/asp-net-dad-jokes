@@ -16,8 +16,8 @@ namespace dad_jokes.Data.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    JokeQuestion = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    JokeAnswer = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    JokeQuestion = table.Column<string>(type: "varchar(225)", nullable: false),
+                    JokeAnswer = table.Column<string>(type: "varchar(225)", nullable: false)
                 },
                 constraints: table =>
                 {
