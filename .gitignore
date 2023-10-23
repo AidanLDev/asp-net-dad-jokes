@@ -1,0 +1,7 @@
+# ASP .NET gitignore template
+.vs
+/appsettings.json
+dad-jokes/appsettings.json
+dad-jokes/Properties/*
+dad-jokes/bin/*
+dad-jokes/obj/Debug/*
