@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using dad_jokes.Data;
+﻿using dad_jokes.Data;
 using dad_jokes.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace dad_jokes.Controllers
 {
@@ -22,9 +18,21 @@ namespace dad_jokes.Controllers
         // GET: Jokes
         public async Task<IActionResult> Index()
         {
-              return _context.Joke != null ? 
-                          View(await _context.Joke.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Joke'  is null.");
+            return _context.Joke != null ?
+                        View(await _context.Joke.ToListAsync()) :
+                        Problem("Entity set 'ApplicationDbContext.Joke'  is null.");
+        }
+
+        //  Jokes/ShowSearchForm
+        public async Task<IActionResult> ShowSearchForm()
+        {
+            return View();
+        }
+
+        //  Jokes/showSearchResults
+        public async Task<IActionResult> ShowSearchResults(string searchPhrase)
+        {
+            return View("Index", await _context.Joke.Where(joke => joke.JokeQuestion.Contains(searchPhrase)).ToListAsync());
         }
 
         // GET: Jokes/Details/5
@@ -46,6 +54,7 @@ namespace dad_jokes.Controllers
         }
 
         // GET: Jokes/Create
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -86,6 +95,7 @@ namespace dad_jokes.Controllers
         // POST: Jokes/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,JokeQuestion,JokeAnswer")] Joke joke)
@@ -119,6 +129,7 @@ namespace dad_jokes.Controllers
         }
 
         // GET: Jokes/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Joke == null)
@@ -137,6 +148,7 @@ namespace dad_jokes.Controllers
         }
 
         // POST: Jokes/Delete/5
+        [Authorize]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -150,14 +162,14 @@ namespace dad_jokes.Controllers
             {
                 _context.Joke.Remove(joke);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool JokeExists(int id)
         {
-          return (_context.Joke?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Joke?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
